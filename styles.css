@@ -1,0 +1,161 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+}
+
+body {
+    background-color: rgb(188, 185, 120);
+    margin: 20px;
+}
+
+/*ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #296a64;
+    color:white;
+    display: block;
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 20px;
+    line-height: 20px;
+
+}*/
+
+a:hover {
+    background-color: white;
+    color:black;
+}
+
+.button {
+    background: #e7e7e7;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 700 13px helvetica,Arial;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+a {
+color: #666666;
+text-decoration: none;
+float: left;
+}
+
+h1 {
+    color: #e5e4d7;
+    margin-bottom: 0px;
+}
+
+.imagec {
+    display: block;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.paragraph {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px 20px 20px 70px;
+    /*padding top right bottom left*/
+    border: black 1px solid;
+    /*border-color: black;
+    border-width: 2px;
+    border-style: solid;*/
+    /*text-shadow: 1px 1px 2px gold,*/
+                
+}
+
+#left {
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: solid 2px black;
+}
+
+#center {
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ecf1ef;
+    border: solid 2px black;
+
+}
+
+#right {
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background-color: #ebece4;
+    border: solid 2px black;
+}
+
+#box1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    /*background-color: blue;*/
+    background: linear-gradient(blue, red, yellow);
+    border-radius: 5px;
+}
+
+#box2 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    background: linear-gradient(to right, red, yellow, blue);
+    opacity: 0.5;
+
+}
+
+#box2:hover{
+    opacity: 1;
+}
+
+/*#right p:nth-child(2n) {
+    color: orange;
+}
+
+p{
+    color: red;
+}
+
+:not(p) {
+    color: darkgreen;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+p:first-line {
+    color: red;
+}
+*/
+
+
+

@@ -1,0 +1,338 @@
+body {
+    color: green;
+    font-family: Verdana, Arial, geneva, Arial black;
+    font-weight: normal;
+    /*background-color: aqua;
+    background-color: rgb(240,28,230);*/
+    /*background-color: #ffcf79;*/
+    background: white;
+    font-size: 25px;
+    /*border-color: black;
+    border-width: 4px;
+    border-style: solid;
+    padding: 10px;
+    background-image: url(clouds.jpg);*/
+    
+    
+}
+/*font-weight light normal bold bolder*/
+h1, h2 {
+    text-align: center; /*right and left*/
+    
+}
+h1 {
+   /* background-color: white;*/
+    border-bottom: 1px solid black; 
+    text-decoration: underline;
+   /* text-decoration: overline underline line-through;*/
+   font-size: 150%;
+   
+}
+
+
+h2 {
+    /* background-color: white;*/
+    /*border-bottom: 1px solid black; 
+    text-decoration: underline;*/
+    font-size: 1.2em;
+    
+}
+
+p.blue {
+    color: red;
+}
+
+p.green {
+    color:green;
+}
+
+.purple {
+    color:indianred;
+}
+
+
+#para1homepage { 
+    color: blue;
+    font-style: italic;
+}
+
+/*p.para2 {
+    font-style: oblique;/*slightly different depending on text used for one word use <i></i>
+}*/
+
+p.paragraph {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px 20px 20px 70px;
+    /*padding top right bottom left*/
+    border: black 2px solid;
+    /*border-color: black;
+    border-width: 2px;
+    border-style: solid;*/
+    background-image: url(clouds.jpg);
+    border-radius: 10px;
+
+
+    /*border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;*/
+    /*this is if you want to curve 1 side of the box*/
+
+    /*border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-right-style: groove;
+    border-top-style: inset;
+
+    border-bottom-color: beige;*/
+
+
+}
+
+#para4homepage {
+    color: black;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px;
+    border-color: #296a64;
+    border-width: thick; /*thin, medium, thick, or px*/
+    border-style: ridge; /*solid dashed, dotted, double,groove, ridge, inset, outset*/
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+    padding-left: 40px;
+}
+
+.imagec {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: silver;
+    padding: 3px;
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#divmain {
+    color: black;
+}
+
+#divbass {
+    color: black;
+}
+
+.highlight {
+    background-color: #ffff00;
+}
+
+h3 {
+    color: black;
+    text-decoration: underline;
+
+}
+
+.divcontent {
+    color: black;
+}
+
+a:link {             /*always keep these 3 in this order link visited hover*/
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: blue;
+    background-color: #dadada;
+    cursor: crosshair;
+    /*cursor:url("mail.ico"), default; this is for custom cursors*/
+}
+
+div.divcontent {
+    background-color: green;
+}
+
+div.content {
+    color: grey;
+    background-color: green;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+p.test {
+    color: yellow;
+    border: orange 2px solid;
+    text-align: left;
+}
+
+div.testing {
+    color: white;
+    background-color: black;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+h2.header2 {
+    color: yellow;
+    background-color: #f15A51
+}
+
+div.shark {
+    background-color:black;
+    color: white;
+    float: left;
+    margin-top: 50px;
+}
+
+div.chinese {
+    background-color: #8C8c9d;
+    color: black;
+    height: 180px;
+    padding: 10px;
+    overflow: scroll;
+}
+
+#maincatfish {
+    background-color: #e5e4d7;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.catcon {
+   background: navy; 
+   float: left;
+   margin: 10px;
+   padding: 2px;
+   border: black 2px solid;
+   
+}
+
+p.catfish-paragraph1{
+    color: navy;
+    font-style: normal;
+    background-image: url(clouds.jpg);
+    border-radius: 10px;
+    border: black 2px solid;
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+/*div.links {
+    position: absolute;
+    bottom: -500px;
+    border: black 2px solid;
+    padding: 20px;
+    overflow: scroll;
+
+}*/
+
+div.links {
+    padding: 10px;
+    background-color: #296a64;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+nav.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #296a64;
+    color: grey;
+    height: 35px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+nav.navbar a {
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    vertical-align: middle;
+}
+
+nav.navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul.nav {
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+li.line-nav {
+    color: grey;
+    display: inline;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+img.icon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+
+/*ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #296a64;
+    color:white;
+    display: block;
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}*/
+
+#theform {
+    color: white;
+    display: table;
+    padding: 15px;
+    background-color: #2c8f77;
+    border: solid 2px black;
+}
+
+.row {
+    display: table-row;
+}
+
+.row label {
+    display: table-cell;
+    padding: 2px;
+    text-align: right;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+p.garfish-para1>b {
+    color: black;
+}
